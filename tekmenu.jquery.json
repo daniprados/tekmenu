@@ -1,13 +1,13 @@
 {
   "name": "tekmenu",
   "title": "jQuery tekmenu ",
-  "description": "Whith tekmenu,  you can generate dynamic menus, really easy to use. ",
+  "description": "Whith tekmenu,  you can generate dynamic menus, really easy to use and optimized for SEO.  ",
   "keywords": [
     "ui",
     "menu",
 	"comunicatek"
   ],
-  "version": "0.3.0",
+  "version": "0.3.2",
   "author": {
     "name": "Dani Prados ",
     "url": "http://code.comunicatek.com",
