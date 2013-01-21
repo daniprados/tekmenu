@@ -27,10 +27,10 @@
     }
   ],
   "bugs": "https://github.com/daniprados/tekmenu/issues",
-  "homepage": "http://code.comunicatek.com/en/tekmenu.html",
-  "demo": "http://code.comunicatek.com/en/tekmenu.html",
-  "docs": "http://code.comunicatek.com/en/tekmenu.html",
-  "download": "http://code.comunicatek.com/en/tekmenu.html",
+  "homepage": "http://code.comunicatek.com/en/tekmenu__menu_html_with_jquery.html",
+  "demo": "http://code.comunicatek.com/en/tekmenu__menu_html_with_jquery.html",
+  "docs": "http://code.comunicatek.com/en/tekmenu__menu_html_with_jquery.html",
+  "download": "http://code.comunicatek.com/en/tekmenu__menu_html_with_jquery.html",
   "dependencies": {
     "jquery": ">=1.3"
   }
