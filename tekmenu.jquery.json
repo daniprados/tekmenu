@@ -1,0 +1,36 @@
+{
+  "name": "tekmenu",
+  "title": "jQuery tekmenu ",
+  "description": "jQuery plugin for integrate google maps v3 with your page using jQuery. It is as easy as $ ('# Map').tekmenu ();",
+  "keywords": [
+    "googlemaps",
+    "maps"
+  ],
+  "version": "0.3.0",
+  "author": {
+    "name": "Dani Prados ",
+    "url": "http://code.comunicatek.com",
+	"email": "daniprados@gmail.com"
+  },
+  "maintainers": [
+    {
+	"name": "Dani Prados ",
+    "url": "http://code.comunicatek.com",
+	"email": "daniprados@gmail.com"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/daniprados/tekmenu/blob/master/MIT-LICENCE..txt"
+    }
+  ],
+  "bugs": "https://github.com/daniprados/tekmenu/issues",
+  "homepage": "http://code.comunicatek.com/en/tekmenu.html",
+  "demo": "http://code.comunicatek.com/en/tekmenu.html",
+  "docs": "http://code.comunicatek.com/en/tekmenu.html",
+  "download": "http://code.comunicatek.com/en/tekmenu.html",
+  "dependencies": {
+    "jquery": ">=1.3"
+  }
+}
