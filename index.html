@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tekmenu.0.2.js"></script> 
+
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("a.menu").TekMenu();
+		$("a.menu2").TekMenu({fullAnimation:true});
+		
+/*		$("#blog").slideDown();
+		$("#blog2").slideDown();
+		$("#blog").hide("fast");*/
+	});
+	
+</script>
+
+<title>TekMenu</title>
+</head>
+<body>
+<ul class="first">
+<li><a href="/index.php?pagina=2&idioma=3" rel="#blog" class="menu"> Blog </a> </li>
+<li><a href="/index.php?pagina=2&idioma=3" rel="#plugins" class="menu"> Plugins </a> </li>
+<li> Tutorials </li>
+</ul>
+
+<div id="blog" class="hide second" >
+<ul class="second">
+<li> Item 1</li>
+<li> Item 2</li>
+<li> Item 3</li>
+</ul>
+</div>
+
+<div id="plugins" class="hide second" >
+<ul class="second">
+<li> Tekmap</li>
+<li> tekTube</li>
+<li> TekMenu</li>
+</ul>
+</div>
+
+
+<br />
+<ul class="first2">
+<li><a href="/index.php?pagina=2&idioma=3" rel="#blog2" class="menu2"> Blog </a> <ul id="blog2" class="second2">
+<li> Item 1</li>
+<li> Item 2</li>
+<li> Item 3</li>
+</ul> </li>
+<li><a href="/index.php?pagina=2&idioma=3" rel="#plugins2" class="menu2"> Plugins </a>  <ul  id="plugins2" class="second2">
+<li> Tekmap</li>
+<li> tekTube</li>
+<li> TekMenu</li>
+</ul></li>
+<li> Tutorials </li>
+</ul>
+
+
+
+<div id="foot"> By <a href="http://code.comunicatek.com">code.comunicatek.com</a></div>
+<!--<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-115345-9']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+
+</script>-->
+</body>
+</html>
