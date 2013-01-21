@@ -1,10 +1,11 @@
 {
   "name": "tekmenu",
   "title": "jQuery tekmenu ",
-  "description": "jQuery plugin for integrate google maps v3 with your page using jQuery. It is as easy as $ ('# Map').tekmenu ();",
+  "description": "Whith tekmenu,  you can generate dynamic menus, really easy to use. ",
   "keywords": [
-    "googlemaps",
-    "maps"
+    "ui",
+    "menu",
+	"comunicatek"
   ],
   "version": "0.3.0",
   "author": {
