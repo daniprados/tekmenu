@@ -1,5 +1,5 @@
 <h1>TekMenu, Menu html with JQuery</h1>
-	<div class="txt-contingut"><p><strong>Objective:</strong> To create a plugin to generate dynamic menus, really easy to use.</p>
+<p><strong>Objective:</strong> To create a plugin to generate dynamic menus, really easy to use.</p>
 <p>&nbsp;</p>
 <p><strong>Plugin:</strong></p>
 <p>The basic call</p>
