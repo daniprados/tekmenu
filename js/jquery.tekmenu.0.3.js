@@ -9,7 +9,7 @@
   var  defaults = {
     timeout: 250,
 	fullAnimation : false,
-	animation : "slide",
+	animation : "slideDown",
 //	animationcallback :    per definir funcions propies
 	speed : "slow",
 	direction : "down",

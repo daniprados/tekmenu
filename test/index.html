@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Test for tekmenu</title>
+  <link rel="stylesheet" href="http://code.jquery.com/qunit/qunit-1.11.0.css">
+  <link rel="stylesheet" ../styles.css">
+  <style>
+  .hide { display:none; }
+  </style>
+</head>
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture">
+  	<ul class="first">
+<li><a href="/index.php?pagina=2&idioma=3" rel="#blog" class="menu" id="menutest"> Blog </a> </li>
+<li><a href="/index.php?pagina=2&idioma=3" rel="#plugins" class="menu" id="menutest2"> Plugins </a> </li>
+<li> Tutorials </li>
+</ul>
+
+    <div id="blog" class="hide second" >
+    <ul class="second">
+    <li> Item 1</li>
+    <li> Item 2</li>
+    <li> Item 3</li>
+    </ul>
+    </div>
+    
+    <div id="plugins" class="hide second" >
+    <ul class="second">
+    <li> Tekmap</li>
+    <li> tekTube</li>
+    <li> TekMenu</li>
+    </ul>
+    </div>
+
+  </div>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script src="../js/jquery.tekmenu.0.3.js"></script>
+  <script src="http://code.jquery.com/qunit/qunit-1.11.0.js"></script>
+  <script type="text/javascript">
+	$(document).ready(function(){
+		$("a.menu").TekMenu({fullAnimation : true, debug : true});
+	});
+   </script>
+  <script src="tests.js"></script>
+</body>
+</html>
