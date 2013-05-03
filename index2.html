@@ -16,8 +16,8 @@
 	});
 	
 		function custom(m){
-			m.fadeTo(0,0.1)
-			.animate({height:'toggle'},500)
+			m.animate({height:'toggle'},500)
+			.fadeTo(0,0.2)
 			.fateTo(1000,1);
 		}
 	
@@ -27,8 +27,8 @@
 </head>
 <body>
 <ul class="first">
-<li><a href="/index.php?pagina=2&idioma=3" rel="#blog" class="menu"> Blog </a> </li>
-<li><a href="/index.php?pagina=2&idioma=3" rel="#plugins" class="menu"> Plugins </a> </li>
+<li><a href="/index.php?pagina=2&amp;idioma=3" data-rel="#blog" class="menu"> Blog </a> </li>
+<li><a href="/index.php?pagina=2&amp;idioma=3" data-rel="#plugins" class="menu"> Plugins </a> </li>
 <li> Tutorials </li>
 </ul>
 

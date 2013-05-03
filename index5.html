@@ -4,65 +4,44 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <link href="styles.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.tekmenu.0.2.js"></script> 
+<script type="text/javascript" src="js/jquery.tekmenu.0.3.js"></script> 
 
 
 <script type="text/javascript">
 	$(document).ready(function(){
-		$("a.menu").TekMenu();
-		$("a.menu2").TekMenu({fullAnimation:true});
-		
-/*		$("#blog").slideDown();
-		$("#blog2").slideDown();
-		$("#blog").hide("fast");*/
+		$("a.menu3").TekMenu({
+                            speed:'slow',
+                            animation:"slideDown",
+                            direction:"left"
+                          });
 	});
-	
 </script>
 
 <title>TekMenu</title>
 </head>
 <body>
-<ul class="first">
-<li><a href="/index.php?pagina=2&amp;idioma=3" rel="#blog" class="menu"> Blog </a> </li>
-<li><a href="/index.php?pagina=2&amp;idioma=3" rel="#plugins" class="menu"> Plugins </a> </li>
-<li> Tutorials </li>
+<ul class="first4">
+  <li>
+    <a href="/index.php?pagina=2&amp;idioma=3" data-rel="#blog3" class="menu3"> Blog </a> 
+    <ul id="blog3" class="second2">
+    <li> Item 1</li>
+    <li> Item 2</li>
+    <li> Item 3</li>
+    </ul> 
+  </li>
+  <li>
+    <a href="/index.php?pagina=2&amp;idioma=3" data-rel="#plugins3" class="menu3"> Plugins </a>  
+    <ul  id="plugins3" class="second2">
+    <li> Tekmap</li>
+    <li> tekTube</li>
+    <li> TekMenu</li>
+    </ul>
+  </li>
+  <li> Tutorials </li>
 </ul>
-
-<div id="blog" class="hide second" >
-<ul class="second">
-<li> Item 1</li>
-<li> Item 2</li>
-<li> Item 3</li>
-</ul>
-</div>
-
-<div id="plugins" class="hide second" >
-<ul class="second">
-<li> Tekmap</li>
-<li> tekTube</li>
-<li> TekMenu</li>
-</ul>
-</div>
-
-
-<br />
-<ul class="first2">
-<li><a href="/index.php?pagina=2&amp;idioma=3" rel="#blog2" class="menu2"> Blog </a> <ul id="blog2" class="second2">
-<li> Item 1</li>
-<li> Item 2</li>
-<li> Item 3</li>
-</ul> </li>
-<li><a href="/index.php?pagina=2&amp;idioma=3" rel="#plugins2" class="menu2"> Plugins </a>  <ul  id="plugins2" class="second2">
-<li> Tekmap</li>
-<li> tekTube</li>
-<li> TekMenu</li>
-</ul></li>
-<li> Tutorials </li>
-</ul>
-
-
 
 <div id="foot"> By <a href="http://code.comunicatek.com">code.comunicatek.com</a></div>
+
  <!-- Only for analitycs  
  		PLEASE remove for copy on your site 
 --> 

@@ -38,7 +38,13 @@ ul.second3 li { display:block;  margin:1px auto 0 auto;  padding:10px; backgroun
 ul.second3 li:hover {  background-color:#990000; color:#FFFFFF;}
 
 
+ul.first4 { display:block; width:150px;; margin: 300px 10 0 auto; border: 1px solid #ccc; -moz-border-radius: 10px;  -webkit-border-radius: 10px; border-radius: 10px; background-color:#ccc; min-height:32px; padding:0; overflow:hidden; float: right; }
+ul.first4 li { display:block; margin:10px 0 10px 10px; font-size:20px; }
+ul.first4 li a { display:block; }
+ul.first4 li a:hover { background-color:#fff; }
 
-#foot {width:95%; text-align:right; color:#000; }
+
+
+#foot {width:95%; text-align:right; color:#000; clear:both; }
 #foot a { color:#990000; }
 
